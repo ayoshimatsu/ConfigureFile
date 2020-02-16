@@ -1,19 +1,33 @@
 set number
 set title
-set hlsearch
-set showmatch
 
+" [Search function]
+"" Don't distiguish upper/lower case
+set ignorecase
+"" Distinguish upper case when upper case is mixed
+set smartcase
+"" Highlight words
+set hlsearch
+"" Enable incremental search
+set incsearch
+
+" [Tab and Indent]
 set tabstop=8
+"" Insert spaces when enter <tab>
 set softtabstop=4
+"" Insert spaces of shiftwidth when enter <tab> at BOL
 set smarttab
+"" Width of auto indent
 set shiftwidth=4
+"" Create indent automatically like C code (Need to set autoindent)
 set smartindent
+"" Don't convert spaces to <tab>
 set expandtab
+"" Keep indent of the previous line when breaking line
 set autoindent
 
-set t_ut=
-
-noremap <Space><CR> o<ESC>
+"" Hilight corresponding parenthesis
+set showmatch
 
 
 "dein Scripts-----------------------------
