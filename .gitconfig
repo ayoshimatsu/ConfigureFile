@@ -1,6 +1,6 @@
 [user]
-    name = Yoshimastu Akihiro
-    email = yoshimaster7@gmail.com
+    name = ???
+    email = ???
 [core]
     editor = vim -c ¥"set fenc=utf-8¥"
     autocrlf = input
